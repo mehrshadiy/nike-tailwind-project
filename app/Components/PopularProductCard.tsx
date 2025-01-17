@@ -2,7 +2,7 @@ import Image from "next/image";
 import {star} from "@/public/icons";
 
 type Props = {
-    imgURL: any;
+    imgURL: string;
     name: string;
     price: string;
     key: string;

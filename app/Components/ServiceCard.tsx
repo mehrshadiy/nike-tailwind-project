@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 type Props = {
-    imgURL: any
+    imgURL: string
     label: string
     subtext: string
 }
