@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import {navLinks} from "@/app/constants";
+import {navLinks} from "../utils";
 
 export const Nav = () => {
     return (

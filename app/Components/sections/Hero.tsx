@@ -1,7 +1,7 @@
 'use client'
 
 import {Button, ShoeCard} from "@/app/Components";
-import {shoes, statistics} from "@/app/constants";
+import {shoes, statistics} from "../../utils";
 import Image, {StaticImageData} from "next/image";
 import {SetStateAction, useState} from "react";
 import {bigShoe1} from "@/public/images";
