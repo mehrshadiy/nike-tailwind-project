@@ -5,6 +5,7 @@ import {shoes, statistics} from "../../utils";
 import Image, {StaticImageData} from "next/image";
 import {SetStateAction, useState} from "react";
 import {bigShoe1} from "@/public/images";
+import {arrowRight} from "@/public/icons";
 
 export const Hero = () => {
 
@@ -34,7 +35,7 @@ export const Hero = () => {
 
                 <Button
                     label={'Shop now'}
-                iconURL={'arrow-right.svg'}/>
+                iconURL={arrowRight}/>
 
                 <div className={'flex justify-start items-start flex-wrap w-full mt-20 gap-16'}>
                     {

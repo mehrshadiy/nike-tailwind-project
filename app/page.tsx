@@ -6,7 +6,7 @@ import {
     Subscribe,
     Footer,
     SuperQuality,
-    Nav
+    Nav, SpecialOffer
 } from "@/app/Components/";
 
 export default function Home() {
@@ -26,7 +26,7 @@ export default function Home() {
                 <Services/>
             </section>
             <section className={'padding'}>
-                <PopularProducts/>
+                <SpecialOffer/>
             </section>
             <section className={'bg-pale-blue padding'}>
                 <CustomerReviews/>
